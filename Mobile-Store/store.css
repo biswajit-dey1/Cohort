@@ -1,0 +1,52 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+ body {
+    width: 100vw;
+    height: 100vh;
+    background-color:#1a1a2e;
+ }
+
+
+.navigation-bar ul {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: #A6CDC6;
+    cursor: pointer;
+    font-weight: 400;
+    font-family:cursive;
+    font-size: 20px;  
+    background-color:#1a1a2e;
+}
+
+li {
+    background-color:#1a1a2e;
+}
+
+.contanier {
+    background-image: url(./smartphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:center; 
+    padding: 20px; 
+    min-height: 400px;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    text-align: center; 
+   
+    opacity: 0.8;
+}
+ 
+.child {
+    padding: 20px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius:10px ;
+    
+}
+
