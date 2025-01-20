@@ -6,7 +6,8 @@
  body {
     width: 100vw;
     height: 100vh;
-    background-color:#1a1a2e;
+    background-color: #56779745;
+   
  }
 
 
@@ -48,5 +49,29 @@ li {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius:10px ;
     
+}
+
+.main {
+display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+.img {
+    height: 200px;
+}
+
+.box h4 {
+    text-align: center;
 }
 
