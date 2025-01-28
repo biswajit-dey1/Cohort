@@ -141,3 +141,30 @@ input::placeholder {
   /* border: 1px solid blue; */
   padding-top: 15px;
 }
+
+.hero {
+  background-color: #ffffff;
+  color: #111827;
+  transition: all 0.3s ease;
+}
+
+/* Dark mode styles */
+.hero.dark-mode {
+  background-color: #111827;
+  color: #ffffff;
+}
+
+/* Update SVG fills in dark mode */
+.hero.dark-mode .fill-gray-800 {
+  fill: #e5e7eb;
+}
+
+/* Button styles */
+.dark-mode-toggle {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.hero.dark-mode .dark-mode-toggle {
+  background-color: #1e40af;
+}

@@ -1,186 +1,175 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  header {
-    height: 100vh;
-  }
+header {
+  height: 100vh;
+}
 
-  nav {
-   
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background-image: linear-gradient(to bottom, #22223b, #2f3e46);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #a29dab;
-    font-size: 18px;
-    padding: 15px 0;
-    padding-bottom: 0;
-  }
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-image: linear-gradient(to bottom, #22223b, #2f3e46);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #a29dab;
+  font-size: 18px;
+  padding: 15px 0;
+  padding-bottom: 0;
+}
 
-  nav div ul {
-    display: flex;
-    gap: 50px;
-    list-style-type: none;
+nav div ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
 
-  }
+nav div button {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+}
 
-  nav div button {
-    border-radius: 8px;
-    border: none;
-    padding: 8px 10px;
-    cursor: pointer;
-  }
+.login {
+  margin-right: 15px;
+}
 
-  .login {
-    margin-right: 15px;
-  }
+.logo img {
+  width: 50px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
-  .logo img {
-    width: 50px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+section {
+  display: flex;
+  text-align: center;
+  background-image: linear-gradient(to top, #22223b, #2f3e46);
+  color: #a29dab;
+}
 
-  }
+.left {
+  /* border: 1px solid black; */
+  width: 50%;
+  padding: 5% 30px;
+  padding-top: 12%;
+  padding-bottom: 23%;
+}
 
-  section {
-    display: flex;
-    text-align: center;
-    background-image: linear-gradient(to top, #22223b, #2f3e46);
-    color: #a29dab;
-  }
+.left h2 {
+  font-size: 3rem;
+  margin: 0 50px;
+  padding-bottom: 17px;
+}
 
-  .left {
-    /* border: 1px solid black; */
-    width: 50%;
-    padding: 5% 30px;
-    padding-top: 12%;
-    padding-bottom: 23%;
-  }
-
-  .left h2 {
-    font-size: 3rem;
-    margin: 0 50px;
-    padding-bottom: 17px;
-  }
- hr {
-  border:none;
+hr {
+  border: none;
   height: 2px;
   box-shadow: 0 10px 30px rgba(255, 255, 255, 0.7);
-  background:rgba(255, 255, 255, 0.8);
- }
+  background: rgba(255, 255, 255, 0.8);
+}
 
-  .left p {
-    font-size: 18px;
-    padding: 20px 0;
-    margin: 0 102px;
-    padding-bottom: 40px;
-  }
+.left p {
+  font-size: 18px;
+  padding: 20px 0;
+  margin: 0 102px;
+  padding-bottom: 40px;
+}
 
+.left button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 92px;
+  cursor: pointer;
+}
 
-  .left button {
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: none;
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 92px;
-    cursor: pointer;
-  }
+.right {
+  /* border: 1px solid green; */
+  width: 50%;
+  padding-bottom: 23%;
+  padding-top: 7%;
+}
 
-  .right {
-    /* border: 1px solid green; */
-    width: 50%;
-    padding-bottom: 23%;
-    padding-top: 7%;
+.right img {
+  width: 90%;
+  float: left;
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  /* Light translucent border */
+  border-radius: 15px;
+  /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.7);
+  margin-top: 20px;
+  object-fit: cover;
+  cursor: pointer;
+}
 
+.right img:hover {
+  transform: rotate(10deg);
+  transition: transform 0.7s ease-in-out;
+}
 
-  }
+main {
+  background-image: url(./background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+}
 
-  .right img {
-    width: 90%;
-    float: left;
-    border: 5px solid rgba(255, 255, 255, 0.8);
-    /* Light translucent border */
-    border-radius: 15px;
-    /* Rounded corners */
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.7);
-    margin-top: 20px;
-    object-fit: cover;
-    cursor: pointer;
-  }
+.background h2 {
+  font-size: 3rem;
+  margin: 0 50px;
+  padding-top: 84px;
+}
 
-  .right img:hover {
-    transform: rotate(10deg);
-    transition: transform 0.7s ease-in-out;
+.background p {
+  font-size: 16px;
+  padding: 40px 0;
+  margin: 0 264px;
+}
 
-  }
+.background img {
+  width: 30%;
+  border-radius: 18px;
+  margin-left: 35%;
+  display: block;
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  /* Light translucent border */
+  border-radius: 15px;
+  /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.7);
+  /* White shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
 
+.background img:hover {
+  transform: scale(1.05);
+  /* Slight zoom effect */
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 1);
+  /* Stronger white shadow on hover */
+}
 
-  main {
-    background-image: url(./background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 1px 1px 2px #000000;
-  }
-
-  .background h2 {
-    font-size: 2rem;
-    margin: 0 50px;
-    padding-bottom: 20px;
-    padding-top: 84px;
-
-  }
-
-  .background p {
-    font-size: 16px;
-    padding: 40px 0;
-    margin: 0 264px;
-
-  }
-
-  .background img {
-    width: 30%;
-    border-radius: 18px;
-    margin-left: 35%;
-    display: block;
-    border: 5px solid rgba(255, 255, 255, 0.8);
-    /* Light translucent border */
-    border-radius: 15px;
-    /* Rounded corners */
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.7);
-    /* White shadow effect */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor:pointer;
-  }
-
-  .background img:hover {
-    transform: scale(1.05);
-    /* Slight zoom effect */
-    box-shadow: 0 15px 40px rgba(255, 255, 255, 1);
-    /* Stronger white shadow on hover */
-
-  }
-
-  .background button {
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: none;
-    width: 200px;
-    margin-top: 50px;
-    background-image: linear-gradient(to bottom, #22223b, #2f3e46);
-    color: #ffffff;
-    margin-bottom: 40px;
-    cursor: pointer;
-  }
+.background button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom, #22223b, #2f3e46);
+  color: #ffffff;
+  margin-bottom: 40px;
+  cursor: pointer;
+}

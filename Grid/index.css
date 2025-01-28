@@ -1,0 +1,26 @@
+.pricing-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 40px;
+}
+
+.pricing-card {
+    border: 1px solid;
+}
+
+.popular {
+    position: relative;
+}
+
+.popular-badge {
+    position: absolute;
+    top:-12px;
+    right: 122px;
+    
+    border: 2px solid;
+    background-color: blueviolet;
+}
