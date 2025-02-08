@@ -88,6 +88,7 @@ body {
     width: 160px;
     background-color: rgb(255, 123, 0);
     font-size: 14px;
+    cursor: pointer;
 }
 
 .features {

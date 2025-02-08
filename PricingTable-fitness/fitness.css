@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+    
+ }
+
+ .container {
+    text-align: center;
+ }
+
+ .header h1 {
+    color: red;
+ }
+
+ .pricing-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+ }
+
+ .pricing-card {
+    border: 2px solid red;
+    margin: 0 30px;
+    position: relative;
+    height: 60vh;
+
+ }
+
+ .features {
+    list-style-type: none;
+   
+ }
+
+
+ .popular-tag {
+  position: absolute;
+  top:-12px;
+  left:42px;
+  border: 1px solid black;
+  background-color: gold;
+  
+ }
+
+ .card-header h2 {
+   padding-top: 20px;
+ }
