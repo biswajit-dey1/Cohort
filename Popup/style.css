@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 60vh;
+    width: 100vw;
+    margin: 5% 4%;
+    
+}
+
+.board {
+    height: 100%;
+    width: 30%;
+    border: 3px solid brown;
+    border-radius: 10px;
+    text-align: center;
+    background-color: darkslategray;
+    
+}
+
+.board h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.para {
+    margin-top: 40px;
+    margin-left: 60px;
+    border: 1px solid rgb(134, 218, 134);
+    border-radius: 8px;
+    width: 50%;
+    height: 10%;
+    padding-top: 8px;
+    color: white;
+}
+
+#btn {
+    margin-left: 10%;
+    padding: 10px;
+    border: none;
+    background-color:darkslateblue;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btn:hover {
+  background-color:rgba(114, 19, 51, 0.815) ;
+}
+
+.input {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 6% 30%;
+    /* border: 3px solid purple; */
+    padding: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+    transform:scale(1);
+    animation: popup 1s; 
+
+}
+
+
+.label {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.inp {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+@keyframes popup {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.4);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    70% {
+      transform: scale(1.2);
+    }
+    80% {
+      transform: scale(1);
+    }
+    90% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  #input-Btn {
+    margin-top: 20px;
+    width: 90px;
+    padding: 10px;
+    border: none;
+    background-color:rgba(114, 19, 51, 0.815);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+  #input-Btn:hover {
+    background-color:darkslateblue;
+    color: white;
+  } 
+
+
+  #delete {
+   margin-left: 90%;
+   font-size: 2rem;
+   cursor: pointer;
+
+  }
+
+  #delete img {
+    height: 40px;
+  }
+  

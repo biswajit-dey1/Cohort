@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main {
+            display: flex;
+            gap: 50px;
+        }
+
+        .left {
+            width: 50%;
+            border: 1px solid black;
+        }
+
+
+
+        .inpt {
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+            margin: 50px 30px;
+           
+        }
+        #input-val {
+            margin: 10px 0;
+            padding: 10px 20px;
+        }
+
+        #input-tht {
+            margin: 10px 0;
+            padding: 10px 20px; 
+        }
+
+        .txt-area {
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+            margin: 0 30px;
+        }
+
+        .txt-area label {
+            margin-bottom: 20px;
+        }
+        .txt-area textarea {
+            padding: 50px 0;
+        }
+
+        #btn {
+            margin: 20px 10%;
+            padding: 10px 20px;
+        }
+
+        #container {
+            margin: 50px 0;
+        }
+        
+        .head_4 {
+            color: red;
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+
+
+       .head_6 {
+        margin-left: 20px;
+        margin-bottom: 5px;
+        color: blueviolet;
+       }
+
+        .text_para {
+            width: 30vw;
+            margin-left: 20px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    <div class="left">
+
+     <div class="inpt">
+    <input type="text" placeholder="Enter text" id="input-val"  >
+    <input type="text" placeholder="write your thought" id="input-tht">
+
+</div>
+
+<span class="txt-area">
+     <label for="story">Give your valuable feedback:</label>
+    <textarea name="" id="feedback"></textarea>
+
+</span>
+    <button id="btn">Submit</button>
+   
+    </div>
+
+    <div id="container">
+        <div id="div_para">
+
+        </div> 
+
+    </div>
+
+   
+
+<!-- 
+    <button id="reset">Reset</button> -->
+ </div>
+ <script src="index.js"></script>
+</body>
+
+</html>

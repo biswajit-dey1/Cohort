@@ -1,0 +1,1 @@
+  console.log(`Charging... Battery at ${battery}%`);

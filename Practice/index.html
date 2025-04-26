@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ 
+   <p id="para"></p>
+</body>
+<script>
+//   const buttons = document.querySelectorAll('.btn')
+//  let expression =""
+//   const input = document.getElementById('inp')
+//   buttons.forEach( (btn) => {
+ 
+//     btn.addEventListener('click', (e) =>{
+//      input.value =  input.value + e.target.textContent
+//      expression = input.value
+//      console.log(expression)
+//     calculate(expression)
+     
+     
+//     })
+//   })
+
+  // function calculate(expression){
+  //     let newExp =  expression.split("+")
+  //     // console.log(newExp)
+  //     let summ = newExp.reduce( (acc, curr) => acc + Number(curr),0)
+  //     // input.value = summ
+  //     // expression = summ.toString()
+  //     console.log(summ)
+  //     expression = summ
+  // }
+
+const youtube = fetch("https://api.freeapi.app/api/v1/public/youtube/videos")
+
+youtube.then((res) => res.json())
+  .then((message) => {
+    const para =  document.getElementById('para')
+     para.textContent = message.data.data[0].kind
+  }
+  )
+  .catch(error => {
+    console.error("Error fetching data:", error);
+  });
+</script>
+</html>

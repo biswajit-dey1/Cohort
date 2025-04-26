@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<body>
+  <label for="color">Choose a car</label>
+  <select name="cars" id="color">
+    <option value="red" id="red">Red</option>
+    <option value="Green" id="green">Green</option>
+    <option value="yellow" id="yellow">Yellow</option>
+  </select>
+
+  <script>
+    // Target the select element
+    const selectElement = document.getElementById('color');
+    console.log(selectElement)
+    // Attach the 'change' event listener
+    selectElement.addEventListener('change', (event) => {
+      console.log('Selected option:', event.target.value);
+      document.body.style.backgroundColor = event.target.value
+    });
+    
+    // Just a sample alert
+    
+  </script>
+</body>
+</html>
